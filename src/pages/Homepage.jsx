@@ -1,6 +1,6 @@
 import { useState } from "react";
 import API from "../services/api";
-import DashboardLayout from "../layouts/DashboardLayout";
+import Dashboardlayout from "../layouts/Dashboardlayout";
 
 export default function Homepage() {
 
@@ -94,7 +94,7 @@ export default function Homepage() {
 
   return (
 
-    <DashboardLayout>
+    <Dashboardlayout>
 
       <div className="min-h-screen text-white p-6">
 
@@ -244,6 +244,6 @@ export default function Homepage() {
 
       </div>
 
-    </DashboardLayout>
+    </Dashboardlayout>
   );
 }
